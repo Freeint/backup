@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Some variables */
+:root {
+    --main-color: #fd4646;
+    --text-color: #02ac70;
+    --bg-color: #fff;
+    --container-color: #1e1e2a;
+}
+body {
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        place-items: center;
+        margin-top: 5rem;
+}
+.container{
+    width: 200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #a9d1c3;
+    border-radius: 5px;
+}
+h1{
+    margin: 10px;
+    font-size: 20px;
+}
+.row{
+    margin-top: 5rem;
+    
+}
+.row input{
+    font-size: 20px;
+    width: 9.4rem;
+    border-radius: 5px;
+}
+input{
+    padding: 2.5rem;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+a{
+    
+}
+nav ul li a{
+    margin-top: 5rem;
+    font-size: 50px;
+    margin-left: 15px;
+    color: #141111;
+    text-decoration: none;
+    margin-bottom: rem;
+}
+button {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    margin-left: 15%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.Contact{
+    font-size: 15px;
+
+}
